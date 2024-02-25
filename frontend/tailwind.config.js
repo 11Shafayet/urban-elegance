@@ -4,11 +4,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Josefin Sans'],
-        secondary: ['Poppins'],
+        primary: ['Playfair Display'],
+        secondary: ['Protest Revolution'],
       },
       colors: {
-        primary: '#ff6363',
+        theme: '#D4CB92',
+        primary: '#2B2A31',
+        secondary: '#27262B',
+        textLight: '#3A3940',
       },
     },
   },
