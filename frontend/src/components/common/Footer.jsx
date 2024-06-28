@@ -75,7 +75,7 @@ const navMenu = [
 
 const Footer = () => {
   return (
-    <section className="py-12 bg-secondary mt-12">
+    <section className="py-12 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
           <div className="flex gap-4 text-xl">
@@ -111,9 +111,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#FFFFFF30] w-full h-[1px] my-12" />
+      <span className="block bg-[#FFFFFF30] w-full h-[1px] my-12" />
 
-      <div></div>
+      <div className="text-center">
+        Copyright © 2024 Shafayet. All right reserved
+      </div>
     </section>
   );
 };

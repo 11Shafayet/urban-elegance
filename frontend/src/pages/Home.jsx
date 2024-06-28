@@ -15,9 +15,9 @@ const Home = () => {
       <Trending />
       <BestSale />
       <Numbers />
-      <Sale />
+      {/* <Sale />
       <Featured />
-      <Testimonial />
+      <Testimonial /> */}
     </>
   );
 };
